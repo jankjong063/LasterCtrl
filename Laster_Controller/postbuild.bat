@@ -1,0 +1,1 @@
+copy C:\Users\88691\AppData\Local\Temp\arduino\sketches\4459229731E7B9A739FA8155F333DC47\Laster_Controller.ino.elf .\
