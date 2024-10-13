@@ -1,0 +1,21 @@
+Version,Source Code Archive,Main Feature,Feature Description,Main Change Compared to Previous Version,What's Next
+1.0,Laster_Controller_v1.0.zip,Initial Release,"Basic CNC laser control with X, Y, Z axis and LCD display",Initial version,Add safety mechanism for laser shutdown after inactivity
+2.0,Laster_Controller_v2.0.zip,Safety Mechanism,Auto-shutdown of laser after 5 minutes of inactivity,Added inactivity timer for laser control,Add homing functionality for CNC axes
+3.0,Laster_Controller_v3.0.zip,Homing Functionality,"Automatic homing of X, Y, Z axes at startup using sensors",Added homing feature for the axes,Add SD card support for cutting patterns
+4.0,Laster_Controller_v4.0.zip,SD Card Support,Support for reading and executing cutting patterns from SD card,Added SD card support,Display real-time coordinates on the LCD screen
+5.0,Laster_Controller_v5.0.zip,Real-time Coordinate Display,"Displays real-time X, Y, Z coordinates on the LCD screen",Real-time coordinate display on the LCD,Add laser temperature monitoring
+6.0,Laster_Controller_v6.0.zip,Temperature Monitoring,Monitor laser temperature and auto-shutdown on overheating,Added laser temperature sensor,Improve button responsiveness with debouncing
+7.0,Laster_Controller_v7.0.zip,Button Debouncing,Improves responsiveness of manual control buttons by debouncing,Added debouncing logic for buttons,Add support for multi-speed motor control
+8.0,Laster_Controller_v8.0.zip,Multi-speed Motor Control,Adds support for variable speed control of the motors,Added variable speed control for motors,Enable Wi-Fi control for remote operation
+9.0,Laster_Controller_v9.0.zip,Wi-Fi Control,Adds Wi-Fi module support for remote laser control and monitoring,Wi-Fi control for laser and motors,Implement power-saving mode for idle periods
+10.0,Laster_Controller_v10.0.zip,Power-saving Mode,Adds power-saving mode that reduces power usage after 10 minutes of inactivity,Added power-saving mode,Allow manual input of simple patterns via the interface
+11.0,Laster_Controller_v11.0.zip,Manual Pattern Input,Allows users to input basic shapes directly via the LCD and buttons,Added manual pattern input feature,Integrate voice command support for basic operations
+12.0,Laster_Controller_v12.0.zip,Voice Command Support,Adds voice command support for starting and stopping the laser,Added voice command recognition,Add precise cutting modes based on material thickness
+13.0,Laster_Controller_v13.0.zip,Precise Cutting Modes,Adds precise cutting modes for thick or thin materials,Added cutting mode selection,Add motor overload detection for protection
+14.0,Laster_Controller_v14.0.zip,Motor Overload Detection,Detects motor overload and shuts down motors to prevent damage,Added motor overload detection,Add pattern scaling for flexible resizing of patterns
+15.0,Laster_Controller_v15.0.zip,Pattern Scaling,Allows users to scale patterns up or down during execution,Added pattern scaling feature,Add material library to adjust cutting parameters automatically
+16.0,Laster_Controller_v16.0.zip,Material Library,Adds a material library for adjusting laser power and speed based on material type,Added material selection menu,"Add logging for cuts performed, including pattern and duration"
+17.0,Laster_Controller_v17.0.zip,Cut Logging,"Logs details of each cut, including the pattern used and cutting duration",Added logging for cuts,Integrate webcam for remote monitoring of the cutting process
+18.0,Laster_Controller_v18.0.zip,Webcam Monitoring,Integrates a webcam for remote visual monitoring of the cutting process,Added webcam integration for monitoring,Add multi-language support for the interface
+19.0,Laster_Controller_v19.0.zip,Multi-language Support,Allows users to switch between multiple languages for the LCD interface,Added support for multiple languages,Implement preview mode to visualize cutting paths before execution
+20.0,Laster_Controller_v20.0.zip,Preview Mode,Adds a preview mode that moves the laser head along the cutting path without firing,Added preview mode for patterns,Further refinements or additional functionalities as needed
